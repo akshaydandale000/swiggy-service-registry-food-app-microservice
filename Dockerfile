@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM amazoncorretto:17-alpine
 WORKDIR /app
 
 COPY target/swiggy-service-registry.jar swiggy-service-registry.jar
